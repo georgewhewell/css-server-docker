@@ -39,7 +39,6 @@ do_update()
 
 
 case $1 in
-    setup)  do_setup  ;;
     update) do_update ;;
     *)      do_start  ;;
 esac
