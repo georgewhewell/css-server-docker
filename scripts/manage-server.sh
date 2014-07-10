@@ -2,10 +2,6 @@
 #
 # manage-server - Gerencia o servidor de CS: Source
 #
-# Autor     : Flaudísio Tolentino <flaudisio@gmail.com>
-# Data      : Wed Apr  9 17:15:34 BRT 2014
-#
-##
 
 CFGDIR=$SERVERDIR/cstrike/cfg
 

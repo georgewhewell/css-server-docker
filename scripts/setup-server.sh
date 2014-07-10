@@ -1,4 +1,7 @@
 #!/bin/sh
+#
+# setup-server - Cria a estrutura básica para o servidor de CS: Source
+#
 
 CFGDIR=$SERVERDIR/cstrike/cfg
 
