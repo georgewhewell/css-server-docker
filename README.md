@@ -1,15 +1,15 @@
 # css-server-docker
 
-Imagem (experimental) para servidor de CS Source no Docker.
+Imagem (experimental) para servidor de Counter-Strike: Source no Docker.
 
 ## Uso
 
-Primeiro uso e atualizações futuras:
+Primeiro uso e atualizações do servidor:
 
-    docker run -it --name css_s css-server css update
+    docker run -i -t --name css_s flaudisio/css-server css update
     docker commit css_s myimage && docker rm css_s
 
-Demais usos:
+Inicialização:
 
     docker run -d \
         -v /caminho/do/cfg:/cfg \
