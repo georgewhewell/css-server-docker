@@ -21,6 +21,7 @@ ENV STEAMCMD /steamcmd/steamcmd.sh
 ENV SERVERDIR /css-server
 
 # Configurações e scripts
+ADD addons/ /addons
 ADD cfg/ /cfg
 ADD scripts/manage-server.sh /usr/bin/manage-server
 ADD scripts/setup-server.sh /usr/bin/setup-server

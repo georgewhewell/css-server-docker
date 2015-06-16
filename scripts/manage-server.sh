@@ -24,7 +24,8 @@ do_start()
         +map "$MAP" \
         -maxplayers "$MAXPLAYERS" \
         -ip "$IP" \
-        -port "$PORT"
+        -port "$PORT" \
+        -sv_pure 2
 }
 
 do_update()

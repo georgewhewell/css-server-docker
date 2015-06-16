@@ -12,6 +12,9 @@ mkdir -p $CFGDIR
 ln -sv /cfg/motd_text.txt $CFGDIR/
 ln -sv /cfg/motd.txt $CFGDIR/
 ln -sv /cfg/server.cfg $CFGDIR/
+ln -sv /cfg/zb_comp.cfg $CFGDIR/
+ln -sv /cfg/zblock.cfg $CFGDIR/
+ln -sv /addons $SERVERDIR/cstrike/addons
 
 chown -R $STEAMUSER:$STEAMUSER $STEAMCMDDIR $SERVERDIR $CFGDIR
 
